@@ -1,0 +1,1 @@
+-   Set maximum workers to ThreadPoolExecutor in AerJob to limit thread creation (\#259)

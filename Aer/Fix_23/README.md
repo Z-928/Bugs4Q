@@ -1,0 +1,1 @@
+- Bug in handling parallelization in matrix_product_state.cpp (PR \#292)

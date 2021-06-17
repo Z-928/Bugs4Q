@@ -1,0 +1,5 @@
+qr = QuantumRegister(2, 'q')
+circuit_all = QuantumCircuit(qr)
+circuit_all.u3(pi, pi, pi, qr[0])
+circuit_all.cu3(pi, pi, pi, qr[0], qr[1])
+circuit_all.draw(output='mpl')
