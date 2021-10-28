@@ -5,24 +5,22 @@ A Benchmark Suite of Real-World Qiskit Bugs
 
 **Issue No**：Number of bug we found :#XXXX  
 
-**Buggy**: Original configuration file with errors
+**Buggy**: Wrong program
 
-**Fixed**: Configuration file after solving the problem  
+**Fixed**: Repaired program
 
-**Modify**: For specific modifications, just provide a link 
+**Modify**: For specific modifications
 
 **Status**: New, unconfirmed, resolved.   
 
-**Version**: Updated version  
+**Version**: Current Version
 
-**Type**: Bug, feature  
+**Type**: Type of error
 
-**Test**: Test cases  
+**Registered**: Time the bug was raised  
 
-**Issue Registered**: Time the bug was raised  
-
-**Issue Resolved**: Time the bug was resovled  
-
+**Resolved**: Time the bug was resovled 
+ 
 ## Qiskit Reproduceable Bugs
 Qiskit is an open-source framework for working with noisy quantum computers at the level of pulses, circuits, and algorithms.
 
