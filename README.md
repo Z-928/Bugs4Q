@@ -45,16 +45,16 @@ This element is Terra and is the foundation on which the rest of Qiskit is built
 
 ### Aer
 This element is Aer, which provides high-performance quantum computing simulators with realistic noise models.
-| Bug Id| Issue No | Buggy | Fixed | Modify| Status |Version|Type|Test|Issue Registered | Issue Resolved |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Bug Id| Issue No | Buggy | Fixed | Modify| Status |Version|Type|Issue Registered | Issue Resolved |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
 | 1* | [#135](https://github.com/Qiskit/qiskit-aer/issues/135) | [Buggy](./Aer/bug_1/buggy.py) | [Fixed](./Aer/bug_1/fixed.py) | --- | Closed | --- | Ignoring the impact of measurement | Apr 10, 2019 | --- |
 | 7* | [#664](https://github.com/Qiskit/qiskit-aer/issues/664) | [Buggy](./Aer/bug_7/buggy.py) | [Fixed](./Aer/bug_7/fixed.py) | --- | Closed | --- | Order during measurement | Mar 19, 2020 | --- |
 | 10* | [#1192](https://github.com/Qiskit/qiskit-aer/issues/1192) | [Buggy](./Aer/bug_10/buggy.py) | [Fixed](./Aer/bug_10/fixed.py) | --- | Closed | --- | Oversized resource consumption | Mar 24, 2021 | --- |
-|* 2 | [#1107;#1108](https://github.com/Qiskit/qiskit-aer/issues/1107) | [Buggy](./Aer/Bug_2) | [Fixed](./Aer/Fix_2) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/1108/files) | Resolved | 0.7.3 | Bug | [Test](./Aer/Test_2/Test_2.py) | Jan 23, 2021 | Jan 26, 2021 |
-|* 4 | [#1011](https://github.com/Qiskit/qiskit-aer/pull/1011) | [Buggy](./Aer/Bug_4) | [Fixed](./Aer/Fix_4) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/1011/files) | Resolved | 0.7.1 | Bug | [Test](https://github.com/Qiskit/qiskit-aer/issues/997) | Oct 29, 2020 | Nov 3, 2020 |
-|* 18 | [#580;#605](https://github.com/Qiskit/qiskit-aer/issues/580) | [Buggy](./Aer/Bug_18) | [Fixed](./Aer/Fix_18) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/605/files) | Resolved | 0.4.1 | Bug | [Test](./Aer/Test_18) | Feb 11, 2020 | Feb 21, 2020 |
-| * 19 | [#640](https://github.com/Qiskit/qiskit-aer/pull/640) | [Buggy](./Aer/Bug_19) | [Fixed](./Aer/Fix_19) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/640/files) | Resolved | 0.4.1→master | Bug | [Test](./Aer/Test_19) | Feb 27, 2020 | Feb 29, 2020 |
-| * 26 | [#244](https://github.com/Qiskit/qiskit-aer/issues/244) | [Buggy](./Aer/Bug_26) | [Fixed](./Aer/Fix_26) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/259/files) | Resolved | 0.2.2→master | Bug | [Test](./Aer/Test_26/Test_26.py) | Jul 2, 2019 | Jul 2, 2019 |
+|* 2 | [#1107;#1108](https://github.com/Qiskit/qiskit-aer/issues/1107) | [Buggy](./Aer/Bug_2) | [Fixed](./Aer/Fix_2) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/1108/files) | Resolved | 0.7.3 | Bug |  Jan 23, 2021 | Jan 26, 2021 |
+|* 4 | [#1011](https://github.com/Qiskit/qiskit-aer/pull/1011) | [Buggy](./Aer/Bug_4) | [Fixed](./Aer/Fix_4) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/1011/files) | Resolved | 0.7.1 | Bug | Oct 29, 2020 | Nov 3, 2020 |
+|* 18 | [#580;#605](https://github.com/Qiskit/qiskit-aer/issues/580) | [Buggy](./Aer/Bug_18) | [Fixed](./Aer/Fix_18) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/605/files) | Resolved | 0.4.1 | Bug |  Feb 11, 2020 | Feb 21, 2020 |
+| * 19 | [#640](https://github.com/Qiskit/qiskit-aer/pull/640) | [Buggy](./Aer/Bug_19) | [Fixed](./Aer/Fix_19) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/640/files) | Resolved | 0.4.1→master | Bug |  Feb 27, 2020 | Feb 29, 2020 |
+| * 26 | [#244](https://github.com/Qiskit/qiskit-aer/issues/244) | [Buggy](./Aer/Bug_26) | [Fixed](./Aer/Fix_26) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/259/files) | Resolved | 0.2.2→master | Bug |  Jul 2, 2019 | Jul 2, 2019 |
 
 ### Ignis
 This element is Ignis, which provides tools for quantum hardware verification, noise characterization, and error correction.
