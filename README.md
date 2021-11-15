@@ -29,7 +29,7 @@ This element is Terra and is the foundation on which the rest of Qiskit is built
 | Bug Id | Issue No | Buggy | Fixed | Modify | Status | Version | Type | Registered | Resolved |
 | --- | --- | ---| ---| ---| ---| --- | ---| ------ | --- |
 | 1 | [#5098](https://github.com/Qiskit/qiskit-terra/issues/5098) | [Buggy](./Terra-0-4000/3/buggy.py) | [Fixed](./Terra-0-4000/3/Fixed.py) | ---| Open | master| parameter | Sep 7, 2020 | ---|
-| 2 | [#356](https://github.com/Qiskit/qiskit-terra/issues/356) | [Buggy](./Terra-0-4000/6/buggy.py) | [Fixed](./Terra-0-4000/6/Fixed.py) | ---|Close | qr,qc| --- | Mar 22, 2018 | ---|
+| 2 | [#356](https://github.com/Qiskit/qiskit-terra/issues/356) | [Buggy](./Terra-0-4000/6/buggy.py) | [Fixed](./Terra-0-4000/6/Fixed.py) | ---|Close | ---| qr,qc | Mar 22, 2018 | ---|
 | 3 | [#537](https://github.com/Qiskit/qiskit-terra/issues/537);[#783](https://github.com/Qiskit/qiskit-terra/issues/783) | [Buggy](./Terra-0-4000/7/buggy.py) | [Fixed](./Terra-0-4000/7/Fix.py) | ---| Close | 0.5.3 | ! U | Jun 6, 2018 | Jun 8,2018|
 | 4 | [#596](https://github.com/Qiskit/qiskit-terra/issues/596) | [Buggy](./Terra-0-4000/8/buggy.py) | [Fixed](./Terra-0-4000/8/fixed.py) | ---| Close | 0.5.4 | empty circuit | Jun 27, 2018 | Jun 27,2018|
 | 5 | [#1446](https://github.com/Qiskit/qiskit-terra/issues/1446) | [Buggy](./Terra-0-4000/11/buggy.py) | [Fixed](./Terra-0-4000/11/fix.py) | ---| Close | --- | qasm | Dec 7, 2018 | Dec 8, 2018|
