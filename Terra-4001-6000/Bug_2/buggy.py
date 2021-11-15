@@ -1,0 +1,7 @@
+circ = QuantumCircuit(2, 2)
+circ.u2(0, np.pi, 0)
+circ.h(0)
+circ.x(1)
+circ.cx(0, 1)
+circ.measure(0, 0)
+circ.measure(1, 1)
