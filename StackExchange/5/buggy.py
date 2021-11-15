@@ -1,0 +1,16 @@
+from qiskit import *
+from qiskit.providers.aer import QasmSimulator
+simulator = QasmSimulator()
+q = QuantumRegister(2)
+c = ClassicalRegister(2)
+qc = QuantumCircuit(q, c)
+qc.h(q[0])
+qc.cx(q[0], q[1])
+qc.measure(q,c)
+job_sim = execute(qc, backend=simulator, shots=1024)
+counts_sim = job_sim.result().get_counts(qc)
+qc.cx(q[0], q[1])
+qc.measure(q,c)
+job_sim2 = execute(qc, backend=simulator, shots=1024)
+counts_sim2 = job_sim2.result().get_counts(qc)
+qc.draw()
