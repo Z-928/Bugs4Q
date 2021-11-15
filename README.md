@@ -61,7 +61,7 @@ This element is Ignis, which provides tools for quantum hardware verification, n
 
 | Bug Id | Issue No                                                     | Buggy                   | Fixed                     | Modify                                                       | Status      | Version            | Type            | Test                                                      | Issue Registered | Issue Resolved |
 | ------ | ------------------------------------------------------------ | ----------------------- | ------------------------- | ------------------------------------------------------------ | ----------- | ------------------ | --------------- | --------------------------------------------------------- | ---------------- | -------------- |
-|* 11     | [#443](https://github.com/Qiskit/qiskit-ignis/issues/443);[#429](https://github.com/Qiskit/qiskit-ignis/issues/429) | [Buggy](./Ignis/Bug_11) | [Fixed](./Ignis/Fixed_11) | [Mod](https://github.com/Qiskit/qiskit-ignis/pull/435/files) | Resolved    | 0.3.2              | bug             | [Test](https://github.com/Qiskit/qiskit-ignis/issues/429) | 25 Jun 2020      | 25 Jun 2020    |
+|1     | [#443](https://github.com/Qiskit/qiskit-ignis/issues/443);[#429](https://github.com/Qiskit/qiskit-ignis/issues/429) | [Buggy](./Ignis/Bug_11) | [Fixed](./Ignis/Fixed_11) | [Mod](https://github.com/Qiskit/qiskit-ignis/pull/435/files) | Resolved    | 0.3.2              | bug             | [Test](https://github.com/Qiskit/qiskit-ignis/issues/429) | 25 Jun 2020      | 25 Jun 2020    |
 
 ### Aqua
  Aqua includes domain application support for:Chemistry，Finance，Machine Learning，Optimization
