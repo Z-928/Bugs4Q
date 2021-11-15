@@ -50,7 +50,6 @@ This element is Aer, which provides high-performance quantum computing simulator
 | 1* | [#135](https://github.com/Qiskit/qiskit-aer/issues/135) | [Buggy](./Aer/bug_1/buggy.py) | [Fixed](./Aer/bug_1/fixed.py) | --- | Closed | --- | Ignoring the impact of measurement |---| Apr 10, 2019 | --- |
 | 7* | [#664](https://github.com/Qiskit/qiskit-aer/issues/664) | [Buggy](./Aer/bug_7/buggy.py) | [Fixed](./Aer/bug_7/fixed.py) | --- | Closed | --- | Order during measurement | ---|Mar 19, 2020 | --- |
 | 10* | [#1192](https://github.com/Qiskit/qiskit-aer/issues/1192) | [Buggy](./Aer/bug_10/buggy.py) | [Fixed](./Aer/bug_10/fixed.py) | --- | Closed | ---|Oversized resource consumption |---| Mar 24, 2021 | --- |
-
 |* 2 | [#1107;#1108](https://github.com/Qiskit/qiskit-aer/issues/1107) | [Buggy](./Aer/Bug_2) | [Fixed](./Aer/Fix_2) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/1108/files) | Resolved | 0.7.3 | Bug | [Test](./Aer/Test_2/Test_2.py) | Jan 23, 2021 | Jan 26, 2021 |
 |* 4 | [#1011](https://github.com/Qiskit/qiskit-aer/pull/1011) | [Buggy](./Aer/Bug_4) | [Fixed](./Aer/Fix_4) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/1011/files) | Resolved | 0.7.1 | Bug | [Test](https://github.com/Qiskit/qiskit-aer/issues/997) | Oct 29, 2020 | Nov 3, 2020 |
 |* 18 | [#580;#605](https://github.com/Qiskit/qiskit-aer/issues/580) | [Buggy](./Aer/Bug_18) | [Fixed](./Aer/Fix_18) | [Mod](https://github.com/Qiskit/qiskit-aer/pull/605/files) | Resolved | 0.4.1 | Bug | [Test](./Aer/Test_18) | Feb 11, 2020 | Feb 21, 2020 |
