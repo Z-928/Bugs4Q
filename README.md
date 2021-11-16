@@ -73,7 +73,7 @@ This element is Ignis, which provides tools for quantum hardware verification, n
 |3|[#1324](https://github.com/Qiskit/qiskit-aqua/issues/1324)|[Buggy](./Aqua/Bug_7/vector_state_fn.py) | [Fixed](./Aqua/Fix_7/vector_state_fn.py) | [Mod](https://github.com/Qiskit/qiskit-aqua/commit/750d6c225320fdac07ba14f5dff71031f441e4b8)|Close|---|Bug|[Test](./Aqua/Test_7/Test7.py)| Oct 9 , 2020| Oct 14, 2020|
 |4|[#1279](https://github.com/Qiskit/qiskit-aqua/issues/1279)|[Buggy](./Aqua/Bug_8%2C9/grover_optimizer.py) | [Fixed](./Aqua/Fix_8,9/grover_optimizer.py) | [Mod](https://github.com/Qiskit/qiskit-optimization/commit/21969d728e4f47d870916ca2bdb0d3bb152cb373)|Close|0.7.5|Bug|[Test](./Aqua/Test_8/Test8.py)|Sep 29 ,2020| Oct 10, 2020|
 
-## Qiskit Reproduceable Bugs from Stackflow
+## Qiskit Reproduceable Bugs from StackOverflow
 
 | Bug Id | Buggy | Fixed | Modify| Status |Version|Type| Registered | Resolved |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
