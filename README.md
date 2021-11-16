@@ -1,4 +1,4 @@
-# Bugs4Q
+# Bugs4Q-For Qiskt Library Bugs
 A Benchmark Suite of Real-World Qiskit Bugs
 ## Label
 **Bug Id**: Our own defined number  
