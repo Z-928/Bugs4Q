@@ -37,8 +37,6 @@ const U1Sample tdg_sample(TDG_ANGLE);
 
 const uint_t ZERO = 0ULL;
 
-thread_local std::unordered_map<double, U1Sample> Z_ROTATIONS;
-
 class Runner
 {
 private:
@@ -53,6 +51,8 @@ private:
   complex_t old_ampsum_;
   uint_t x_string_;
   uint_t last_proposal_;
+
+  std::unordered_map<double, U1Sample> z_rotations_;
 
   void init_metropolis(AER::RngEngine &rng);
   void metropolis_step(AER::RngEngine &rng);
@@ -279,12 +279,12 @@ void Runner::apply_tdag(uint_t qubit, double r, int rank)
 void Runner::apply_u1(uint_t qubit, complex_t param, double r, int rank)
 {
   double lambda = std::real(param);
-  auto it = Z_ROTATIONS.find(lambda); //Look for cached z_rotations
+  auto it = z_rotations_.find(lambda); //Look for cached z_rotations
   sample_branch_t branch;
-  if (it == Z_ROTATIONS.end())
+  if (it == z_rotations_.end())
   {
     U1Sample rotation(lambda);
-    Z_ROTATIONS.insert({lambda, rotation});
+    z_rotations_.insert({lambda, rotation});
     branch = rotation.sample(r);
   }
   else

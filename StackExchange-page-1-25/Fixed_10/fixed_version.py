@@ -1,1 +1,0 @@
-grad = Gradient().gradient_wrapper(operator = op, bind_params = list(var_form.parameters))
