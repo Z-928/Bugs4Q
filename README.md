@@ -77,7 +77,7 @@ This element is Ignis, which provides tools for quantum hardware verification, n
 
 | Bug Id | Buggy | Fixed | Modify| Status |Version|Type| Registered | Resolved |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [1](https://stackoverflow.com/questions/60918011/implement-quantum-teleportation-in-qiskit) |  [Buggy](./Stackflow-1-5/1/buggy.py) | [Fixed](/Stackflow-1-5/1/Fixed.py) | --- | --- | --- | Output Wrong | Mar 19, 2020| --- |
+| [1](https://stackoverflow.com/questions/60918011/implement-quantum-teleportation-in-qiskit) |  [Buggy](./Stackoverflow-1-5/1/buggy.py) | [Fixed](./Stackoverflow-1-5/1/Fixed.py) | --- | --- | --- | Output Wrong | Mar 19, 2020| --- |
 | [2](https://stackoverflow.com/questions/69598995/qiskits-draw-only-shows-the-circuits-name-and-not-the-architecture) | [Buggy](./stackoverflow-1-5/Bug_2)  | [Fixed](./stackoverflow-1-5/Fixed_2)  | ---    | ---    | ---     | unfamiliar with API                                          | Oct 17, 2021 | ---      |
 | [3](https://stackoverflow.com/questions/69245836/getting-figure-x-when-drawing-quantum-circuit-with-qiskit-mpl-output-mo) | [Buggy](./stackoverflow-1-5/Bug_3)  | [Fixed](./stackoverflow-1-5/Fixed_3)  | ---    | ---    | ---     | Mixing the usage of draw method and print method             | ---          | ---      |
 | [4](https://stackoverflow.com/questions/64707625/visualizing-circuits-in-qiskit-with-matplotlib) | [Buggy](./stackoverflow-1-5/Bug_11) | [Fixed](./stackoverflow-1-5/Fixed_11) | ---    | ---    | ---     | name conflict.                                               | ---          | ---      |
