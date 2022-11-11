@@ -81,3 +81,24 @@ This element is Terra and is the foundation on which the rest of Qiskit is built
 | 16|[#17651](https://quantumcomputing.stackexchange.com/questions/17651/setting-initial-state-in-qiskit-unitary-simulator) | [Buggy](./StackExchange-page-1-25/Bug_19)|[Fixed](./StackExchange-page-1-25/Fixed_19)|[Mod](./StackExchange-page-1-25/mod19)| Closed |--- | `transpile` required  | May 26, 2021 | May 26,2021|
 | 17 | [#15966](https://quantumcomputing.stackexchange.com/questions/15966/was-the-quantum-circuit-attribute-iden-renamed) | [Buggy](./StackExchange_2/bug_1/buggy.py) | [Fixed](./StackExchange_2/bug_1/fixed.py) |[Mod](/StackExchange_2/bug_1/mod.py) |Closed | ---| Outdated grammar |Feb 10, 2021 |Feb 10,2021 |
 | 18 | [#15925](https://quantumcomputing.stackexchange.com/questions/15925/q-sphere-representation-of-bell-states) | [Buggy](./StackExchange_2/bug_2/buggy.py) | [Fixed](./StackExchange_2/bug_2/fixed.py) | [Mod](./StackExchange_2/bug_2/mod.py)| Closed | ---| Start state is reversed | Feb 8, 2021| Feb 10,2021|
+
+## Q#
+
+| Bug Id | Issue No | Buggy | Fixed | Modify | Status |Version | Type | Registered | Resolved |
+| --- |--- |--- | --- | --- | --- | --- | --- | ----- | ------ |
+| 1 | [4142](https://quantumcomputing.stackexchange.com/questions/4142/how-does-one-obtain-amplitude-information-in-q) | [Buggy](./Q%23/buggy.qs)| [Fixed](./Q%23/fixed.qs) | --- | Closed | --- | No output | Sep 3, 2018 | Sep 3, 2018 |
+| 2 | [12770](https://quantumcomputing.stackexchange.com/questions/12770/microsoft-q-namespace-declarations-can-only-occur-at-a-global-scope-error)|[Buggy](./Q%23/2.ipynb)| [Fixed](./Q%23/2.ipynb) | --- | Closed | --- | --- | Jul 3, 2020 | Jul 4, 2020 |
+
+
+
+## Cirq
+
+| Bug Id | Issue No | Buggy | Fixed | Modify | Status | Version | Type | Registered | Resolved |
+| --- |--- |--- | --- | --- | --- | --- | --- | ----- | ------ |
+| 1 | [3954](https://github.com/quantumlib/Cirq/issues/3954) | [Buggy](./Cirq/1/buggy.py)| [Fixed](./Cirq/1/fixed.py) | --- | Closed | --- | Random number error | Mar 23, 2021 | Mar 23, 2021 |
+| 2 | [3549](https://github.com/quantumlib/Cirq/issues/3549)|[Buggy](./Cirq/2/buggy.py)| [Fixed](./Cirq/2/fixed.py) | --- | Closed | --- | Wrong circuit operation | Dec 1, 2020 | Dec 1, 2020 |
+| 3 | [16636](https://quantumcomputing.stackexchange.com/questions/16636/setting-the-initial-state-of-density-matrix-simulation-in-cirq)|[Buggy](./Cirq/3/buggy.py)| [Fixed](./Cirq/3/fixed.py) | --- | Open | --- | --- | Mar 22, 2021 | --- |
+| 4 | [15711](https://quantumcomputing.stackexchange.com/questions/15711/cirq-n-qubit-ghz-state)|[Buggy](./Cirq/4/buggy.py)| [Fixed](./Cirq/4/fixed.py) | --- | Closed | --- | --- | Jan 27, 2021 | Jan 31, 2021 |
+| 5 | [14945](https://quantumcomputing.stackexchange.com/questions/14945/why-is-the-measurement-result-always-1-expected-to-find-uniformly-random-measu)|[Buggy](./Cirq/5/buggy.py)| [Fixed](./Cirq/5/fixed.py) | --- | Closed | --- | Wrong circuit operation | Dec 3, 2020 | Dec 10, 2020 |
+| 6 | [14286](https://quantumcomputing.stackexchange.com/questions/14286/multiple-bipartite-entangled-state-in-cirq)|[Buggy](./Cirq/6/buggy.py)| [Fixed](./Cirq/6/fixed.py) | --- | Closed | --- | Wrong circuit operation | Oct 21, 2020 | Oct 23, 2020 |
+| 7 | [12838](https://quantumcomputing.stackexchange.com/questions/12838/visualizing-custom-gates-in-cirq) | [Buggy](./Cirq/7/buggy.py)| [Fixed](./Cirq/7/fixed.py) | --- | Closed | --- | Call wrong function | Jul 8, 2020 | Jul 14, 2020 |
